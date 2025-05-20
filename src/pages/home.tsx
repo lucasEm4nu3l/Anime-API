@@ -27,11 +27,13 @@ const Home = () => {
         flexWrap: "wrap",
         gap: "1.5rem",
         justifyContent: "center",
+        
       }}>
         {characters.map((i) => (
           <Card
                 key={i.mal_id}
                 mal_id={i.mal_id}
+                url={i.url}
                 name={i.title}
                 images={i.images} title={''}/>
         ))}
