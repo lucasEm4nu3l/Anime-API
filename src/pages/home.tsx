@@ -12,7 +12,7 @@ const Home = () => {
         setCharacters(res.data.data);
       })
       .catch(err => {
-        console.error('Erro:', err);
+        console.error('Erro ao encontrar os Animes:', err);
       });
   }, []);
 
