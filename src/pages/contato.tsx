@@ -55,6 +55,8 @@ export const Contato = () => {
                 color="inherit"
               >
                 E-mail
+                | 
+                Programador
               </Link>
             </Typography>
           </Box>
@@ -102,6 +104,8 @@ export const Contato = () => {
                 color="inherit"
               >
                 E-mail
+                | 
+                Programadora
               </Link>
             </Typography>
           </Box>
@@ -149,6 +153,8 @@ export const Contato = () => {
                 color="inherit"
               >
                 E-mail
+                | 
+                Programador
               </Link>
             </Typography>
           </Box>
@@ -195,7 +201,9 @@ export const Contato = () => {
                 rel="noopener"
                 color="inherit"
               >
-                E-mail
+                E-mail 
+                | 
+                Programadora
               </Link>
             </Typography>
           </Box>
