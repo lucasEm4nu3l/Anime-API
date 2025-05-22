@@ -1,5 +1,5 @@
 import { Box, Paper, Typography } from "@mui/material";
-import InfoIcon from '@mui/icons-material/Info';
+import InfoIcon from "@mui/icons-material/Info";
 
 export const Sobre = () => {
   return (
@@ -29,11 +29,15 @@ export const Sobre = () => {
         <Box display="flex" justifyContent="center" mb={2}>
           <InfoIcon fontSize="large" />
         </Box>
-        <Typography variant="h6" textAlign="center" sx={{ fontSize: "1.25rem" }}>
-          API feita para fornecer informações completas sobre animes, como título,
-          sinopse, imagem, episódios, status e avaliações. Permite buscar animes por
-          nome ou ID, facilitando a criação de catálogos e apps relacionados ao
-          universo anime.
+        <Typography
+          variant="h6"
+          textAlign="center"
+          sx={{ fontSize: "1.25rem" }}
+        >
+          API feita para fornecer informações completas sobre animes, como
+          título, sinopse, imagem, episódios, status e avaliações. Permite
+          buscar animes por nome ou ID, facilitando a criação de catálogos e
+          apps relacionados ao universo anime.
         </Typography>
       </Paper>
     </Box>
